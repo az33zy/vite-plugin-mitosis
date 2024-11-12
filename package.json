@@ -5,9 +5,5 @@
   "scripts": {
     "dev": "pnpm --filter demo-sveltekit dev"
   },
-  "packageManager": "pnpm@9.12.3",
-  "engines": {
-    "pnpm": "^9.0.0",
-    "node": "^18.0.0 || >= 20"
-  }
+  "packageManager": "pnpm@9.12.3"
 }
