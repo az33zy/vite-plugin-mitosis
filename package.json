@@ -1,0 +1,11 @@
+{
+  "name": "vite-plugin-mitosis-monorepo",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "pnpm": "^9.0.0",
+    "node": "^18.0.0 || >= 20"
+  }
+}

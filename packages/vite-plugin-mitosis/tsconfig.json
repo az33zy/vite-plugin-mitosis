@@ -1,0 +1,16 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Node16",
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "strict": true,
+    "moduleResolution": "Node16",
+    "skipLibCheck": true,
+    "allowJs": true,
+    "checkJs": true
+  }
+}

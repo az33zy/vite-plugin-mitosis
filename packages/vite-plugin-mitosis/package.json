@@ -1,0 +1,51 @@
+{
+  "name": "vite-plugin-mitosis",
+  "version": "0.1.0",
+  "description": "Vite plugin to import JSX components to different UI frameworks",
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "pnpm run build"
+  },
+  "files": [
+    "src",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/az33zy/vite-plugin-mitosis.git"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "mitosis",
+    "jsx",
+    "tsx",
+    "svelte"
+  ],
+  "author": "az33zy",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/az33zy",
+  "bugs": {
+    "url": "https://github.com/az33zy/vite-plugin-mitosis/issues"
+  },
+  "homepage": "https://github.com/az33zy/vite-plugin-mitosis#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "vite": ">=2.6.0"
+  },
+  "dependencies": {
+    "@builder.io/mitosis": "^0.5.18"
+  }
+}
