@@ -2,7 +2,9 @@
   "name": "vite-plugin-mitosis-monorepo",
   "private": true,
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "dev": "pnpm --filter demo-sveltekit dev"
+  },
   "packageManager": "pnpm@9.12.3",
   "engines": {
     "pnpm": "^9.0.0",
